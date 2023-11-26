@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    padding: 30px;
+    color: white;
+}
+
+.nav-items a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    margin: 0 10px;
+    font-size: 1.5em;
+}
+
+.team-name {
+    font-size: 2em; 
+}
+
+.team-logo {
+    font-size: 1.5em; 
+}
+.footer {
+    background-color: green;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
