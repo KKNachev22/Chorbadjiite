@@ -13,13 +13,13 @@
 
 ## 🚀 Languages and tools:
 <p align="left"> 
-        <img src="./images/html.png" width="50px" height="50px"> 
-        <img src="./images/css.png" width="50px" height="50px"> 
-        <img src="./images/vscode.png" width="40px" height="40px"> 
-        <img src="./images/powerpoint.png" width="40px" height="40px"> 
-        <img src="./images/word.png" width="50px" height="50px"> 
-        <img src="./images/teams.png" width="50px" height="50px"> 
-        <img src="./images/figma.png" width="50px" height="40px">
-        <img src="./images/Discord_Icon.png" width="50px" height="50px"> 
+        <img src="./images/Tools_and_Languages/html.png" width="50px" height="50px"> 
+        <img src="./images/Tools_and_Languages/css.png" width="50px" height="50px"> 
+        <img src="./images/Tools_and_Languages/vscode.png" width="40px" height="40px"> 
+        <img src="./images/Tools_and_Languages/powerpoint.png" width="40px" height="40px"> 
+        <img src="./images/Tools_and_Languages/word.png" width="50px" height="50px"> 
+        <img src="./images/Tools_and_Languages/teams.png" width="50px" height="50px"> 
+        <img src="./images/Tools_and_Languages/figma.png" width="50px" height="40px">
+        <img src="./images/Tools_and_Languages/Discord_Icon.png" width="50px" height="50px"> 
 </a>
 </p>
