@@ -2,3 +2,52 @@ body{
     background-image: url(../images/Home_Background.png);
     background-size: 100%;
 }
+
+
+.heading {
+    font-family: Montserrat Subrayada; 
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    font-size: 66px; 
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+.save-conteiner{
+    margin-top: -5%;
+    position: absolute;
+    
+}
+
+.save{
+    color: #FFF;
+    font-family: Montagu Slab;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.earth-conteiner{
+    margin-top: -7%;
+}
+
+.earth{
+    color: #FFF;
+    font-family: Montagu Slab;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 0%;
+    text-align: right;
+}

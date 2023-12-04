@@ -27,7 +27,7 @@ body {
     margin: 0 5px;
     font-size: 1.5em;
     border-radius: 50px;
-    
+
 }
 
 #navbarSupportedContent{
@@ -41,15 +41,20 @@ body {
 }
 
 .logo-image {
-    width: 7vw; /* Adjust the width as needed */
-    height: auto; /* This ensures the aspect ratio is maintained */
+    width: 7vw; /* Adjust the width as needed /
+    height: auto; / This ensures the aspect ratio is maintained */
 }
+
+
+
+
+
 
 .footer {
     background-color: green;
     color: white;
     text-align: left;
-    padding: 10px;
+    padding: 1px;
     position: relative;
     left: 0;
     bottom: 0;
@@ -58,7 +63,7 @@ body {
     margin-bottom: 0;
 }
 
-.footer-items{
+.footer-conteiner{
     margin-top: 10px;
     margin-left: 15px;
 }
@@ -82,9 +87,10 @@ a:hover {
         margin: 3px;
     }
     .team-name {
-        font-size: 1.2em;     
+        font-size: 1.2em;
     }
     .footer-items {
         margin: 3px;
     }
 }
+
