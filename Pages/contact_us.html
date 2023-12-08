@@ -24,11 +24,38 @@
         </div>
     </div>
 
+
+    
+      <h1>You can contact our team, here!</h1>
+      <h3 class="h3">You can contact our team here! Don't wait, just create a form and fill it out as shown! To delete the form, just press the escape button!</h3>
+    
+      <button class="btn" id="btn">Create Form</button>
+    
+      <form action="https://api.web3forms.com/submit" method="POST" id="form" class="form">
+    
+        <h3>Name</h3>
+        <input type="hidden" name="access_key" value="76c29e65-af90-48cd-9c11-c3ca68f75b09">
+        <input type="text" name="name" class="input1" required placeholder="Veselin Boyanov">
+    
+        <h3>Email</h3>
+        <input type="email" name="email" class="input2" required placeholder="VBBoyanov22@codingburgas.bg">
+    
+        <h3>Message</h3>
+        <textarea name="message" required placeholder="Can you tell me how you made such a nice site?"></textarea>
+    
+        <button type="submit">Submit The Form</button>
+        <script src="https://web3forms.com/client/script.js" async defer></script>
+    </form>
+
+
+
     <div class="footer">
         <div class="footer-conteiner">
           <p class="footer-items">&copy; Contact Us.</p>
           <p class="footer-items">office@codingburgas.bg</p>
         </div>
       </div>
+
+      <script src="/JS/contact.js"></script>
 </body>
 </html>
