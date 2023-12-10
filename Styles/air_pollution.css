@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../images/Air_Pollution_Background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0; /* Remove default margin to ensure full-width layout */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+}
+
+.first-photo {
+    width: 10%; /* Make the photo take the full width of its container */
+    margin-bottom: 10px; /* Add margin for spacing between photo and text */
+}
+
+/* Style for the second text and photo container */
+.second_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px; /* Add margin for spacing */
+}
+
+/* Style for the second photo */
+.second-photo {
+    width: 10%; /* Make the photo take the full width of its container */
+    margin-bottom: 10px; /* Add margin for spacing between photo and text */
+}
+
+.first_text p, .second_text p {
+    margin-bottom: 10px; /* Add margin between paragraphs for better readability */
+}
+
+.footer {
+    margin-top: 20px; /* Add margin to separate the footer from the content */
+}
