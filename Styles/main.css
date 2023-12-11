@@ -100,11 +100,6 @@ body {
     height: auto; / This ensures the aspect ratio is maintained */
 }
 
-
-
-
-
-
 .footer {
     background-color: green;
     color: white;
@@ -149,19 +144,22 @@ a:hover {
     }
 }
 .dropdown-btn{
-  background-color: green;
-  height: 50px;
+    background-color: green;
+    height: 50px;
     width: 170px;
     margin-top: 7px;
     margin-left: 5px;
     border-radius: 30px;
     padding: 11px;
 
-    font-family: Montserrat;
-    font-size: 16px; 
+    font-family: Arial, sans-serif;
+    font-size: 1.5em; 
     font-weight: 700;    
     background-color: green;
     text-align: center;
+
+    text-decoration: none;
+    margin: 0 5px;
 }
 
 
@@ -171,13 +169,13 @@ a:hover {
     font-size: 16px;
     border: none;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    min-width: 160px;
-    
+    min-width: 160px;   
     z-index: 1;
 }
 
