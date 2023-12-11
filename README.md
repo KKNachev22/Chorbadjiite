@@ -9,7 +9,7 @@
 
 | Aleksander Harakchiyski| Front-end developer | 🟨 9A |
 
-| Veselin Boyanov | Front-end developer  | 🟨 9A |
+| Veselin Boyanov | Back-end developer  | 🟨 9A |
 
 ## 🚀 Languages and tools:
 <p align="left"> 
