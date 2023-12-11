@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(../images/Contact_Background.png);
+    background: linear-gradient(76deg, #70FFA1 1.76%, rgba(0, 209, 255, 0.56) 96.2%);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -9,8 +9,8 @@ form
     flex-direction: column;
 
     padding: 2vw 4vw;
-    width: 900px;
-    height: 500px;
+    width: 1000px;
+    height: 550px;
     border: 1px solid #000;
     background: #FFF;
     margin-left: 500px;
@@ -43,6 +43,9 @@ form button
     border: 0;
     outline: none;
     cursor: pointer;
+    position: relative;
+    top: 80px;
+    right: 200px;
 }
 .btn
 {
@@ -62,20 +65,18 @@ h1
 {
     color: white;
     font-weight: 1000;
-    margin-left: 700px;
+    margin-left: 500px;
     margin-top: 100px;
 }
-.h3
-{
+.box
+{   
     color: white;
     font-weight: 1000;
     font-size: large;
-    margin-left: 400px;
-    margin-top: 50px;
+    position: relative;
+    left: 00px;
+    top: 80px;
 }
 .footer{
     margin-top: 400px;
-}
-.input1{
-    
 }
