@@ -7,7 +7,7 @@
 
 | Miroslav Markov |  Designer  | 🟨 9A |
 
-| Aleksander Harakchiyski| Back-end developer | 🟨 9A |
+| Aleksander Harakchiyski| Front-end developer | 🟨 9A |
 
 | Veselin Boyanov | Front-end developer  | 🟨 9A |
 
