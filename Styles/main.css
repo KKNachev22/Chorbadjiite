@@ -1,200 +1,193 @@
-body {
-    padding: 0;
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: green;
-    padding: 10px;
-    color: white;
-    flex-wrap: wrap;
-}
-
-.nav-items:hover
-{
-    text-decoration: none;
-    color: aliceblue;
-}
-
-
-
-
-.dropdown-btn:hover {
-    text-decoration: none;
-    background-color: rgba(54, 99, 60, 0.664);
-}
-
-.nav-items {
-    color: white;
-    text-decoration: none;
-    padding: 25px;
-    margin: 0 5px;
-    font-size: 1.5em;
-    border-radius: 50px;
-
-}
-
-.dropdown-btn {
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0);
-    min-width: 160px;
-    z-index: 1;
-    margin-top: 20%;
-  }
-     
-
-.air-pollution{
-    color: rgba(193, 126, 46, 1);
-  }
-  .air-pollution:hover {
-    color: white;
-    background-color: rgba(193, 126, 46, 1);
-}
-
-.bioproducts-impact{
-    color: rgba(43, 213, 151, 1);
-  }
-  .bioproducts-impact:hover {
-    color: white;
-    background-color: rgba(43, 213, 151, 1);
-}
-
-.water-saving{
-    color: rgba(77, 146, 249, 1);
-  }
-  .water-saving:hover {
-    color: white;
-    background-color: rgba(77, 146, 249, 1);
-}
-
-#navbarSupportedContent{
-    text-align: center;
-}
-
-.team-name {
-    font-size: 2em; 
-    margin-left: 5px;
-}
-
-.logo-image {
-    width: 7vw; /* Adjust the width as needed /
-    height: auto; / This ensures the aspect ratio is maintained */
-}
-
-.footer {
-    background-color: green;
-    color: white;
-    text-align: left;
-    padding: 1px;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    margin-bottom: 0;
-}
-
-.footer-conteiner{
-    margin-top: 10px;
-    margin-left: 15px;
-}
-
-.contact{
-    margin-left: 1vw;
-}
-
-a:hover {
-    background-color: rgba(54, 99, 60, 0.664);
-}
-
-#logo2{
-    margin-left: 55vw;
-}
-
-@media only screen and (max-width: 768px) {
-    .nav-items a {
-        padding: 10px; 
-        font-size: 0.8em; 
-        margin: 3px;
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, sans-serif;
     }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1688px;
+        height: 115px;
+        flex-shrink: 0;
+        background-color: green;
+        padding: 10px;
+        color: white;
+        flex-wrap: wrap;
+    }
+ 
+    .nav-items:hover
+    {
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    .dropdown-btn:hover {
+        text-decoration: none;
+        background-color: rgba(54, 99, 60, 0.664);
+    }
+
+    .nav-items {
+        color: white;
+        text-decoration: none;
+        padding: 25px;
+        margin: 0 5px;
+        font-size: 1.5em;
+        border-radius: 50px;
+    }
+
+    .dropdown-btn {
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+    }
+    
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0);
+        min-width: 160px;
+        z-index: 1;
+        margin-top: 20%;
+    }
+        
+
+    .air-pollution{
+        color: rgba(193, 126, 46, 1);
+    }
+    .air-pollution:hover {
+        color: white;
+        background-color: rgba(193, 126, 46, 1);
+    }
+
+    .bioproducts-impact{
+        color: rgba(43, 213, 151, 1);
+    }
+    .bioproducts-impact:hover {
+        color: white;
+        background-color: rgba(43, 213, 151, 1);
+    }
+
+    .water-saving{
+        color: rgba(77, 146, 249, 1);
+    }
+    .water-saving:hover {
+        color: white;
+        background-color: rgba(77, 146, 249, 1);
+    }
+
+    #navbarSupportedContent{
+        text-align: center;
+    }
+
     .team-name {
-        font-size: 1.2em;
+        font-size: 2em; 
+        margin-left: 5px;
     }
-    .footer-items {
-        margin: 3px;
+
+    .logo-image {
+        width: 7vw; /* Adjust the width as needed /
+        height: auto; / This ensures the aspect ratio is maintained */
     }
-}
-.dropdown-btn{
-    background-color: green;
-    height: 50px;
-    width: 170px;
-    margin-top: 7px;
-    margin-left: 5px;
-    border-radius: 30px;
-    padding: 11px;
 
-    font-family: Arial, sans-serif;
-    font-size: 1.5em; 
-    font-weight: 700;    
-    background-color: green;
-    text-align: center;
+    .footer {
+        background-color: green;
+        color: white;
+        text-align: left;
+        padding: 1px;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
 
-    text-decoration: none;
-    margin: 0 5px;
-}
+    .footer-conteiner{
+        margin-top: 10px;
+        margin-left: 15px;
+    }
 
+    .contact{
+        margin-left: 1vw;
+    }
 
+    a:hover {
+        background-color: rgba(54, 99, 60, 0.664);
+    }
 
-.dropdown-btn {
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
-}
+    #logo2{
+        margin-left: 55vw;
+    }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;   
-    z-index: 1;
-}
+    @media only screen and (max-width: 768px) {
+        .nav-items a {
+            padding: 10px; 
+            font-size: 0.8em; 
+            margin: 3px;
+        }
+        .team-name {
+            font-size: 1.2em;
+        }
+        .footer-items {
+            margin: 3px;
+        }
+    }
+    .dropdown-btn{
+        background-color: green;
+        height: 50px;
+        width: 170px;
+        margin-top: 7px;
+        margin-left: 5px;
+        border-radius: 30px;
+        padding: 10px;
+        margin: 0 5px;
+        border: none;
 
-.dropdown-content a {
-    display: block;
-    text-decoration: none;
-    color: #333;
-}
-.dropdown-link{
-    height: 50px;
-    width: 170px;
-    margin-top: 7px;
-    margin-left: 5px;
-    border-radius: 30px;
-    padding: 11px;
+        font-family: Arial, sans-serif;
+        font-size: 1.5em; 
+        font-weight: normal;
+        flex-wrap: wrap;    
+        background-color: green;
+        text-align: center;
 
-    font-family: Montserrat;
-    font-size: 16px; 
-    font-weight: 700;    
-    background-color: white;
-    text-align: center;
-  }
+        text-decoration: none;
+        cursor: pointer;
+
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 160px;   
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        display: block;
+        text-decoration: none;
+        color: #333;
+    }
+    .dropdown-link{
+        height: 50px;
+        width: 170px;
+        margin-top: 7px;
+        margin-left: 5px;
+        border-radius: 30px;
+        padding: 11px;
+
+        font-family: Montserrat;
+        font-size: 16px; 
+        font-weight: 700;    
+        background-color: white;
+        text-align: center;
+    }

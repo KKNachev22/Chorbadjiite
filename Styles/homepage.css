@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300&display=swap');
 body{
     background-image: url(../images/Home_Background.png);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -18,7 +21,6 @@ body{
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
     
 }
-
 
 .save-conteiner{
     margin-top: -5%;
@@ -55,8 +57,8 @@ body{
 }
 
 .box{
+    text-align: center;
     display: flex;
-    display: relative;
     align-items: center;
     justify-content: center;
 
@@ -72,7 +74,7 @@ body{
             
     margin-left: 350px;    /*Positioning*/
     position: relative;
-    top: -190px;
+    top: -200px;
     
 
 
@@ -83,6 +85,34 @@ body{
     font-weight: 400;
     line-height: normal;
 }
-a{
+.no-underline{
     text-decoration: none;
+}
+.text{
+    position: relative;
+    left: 400px;
+    top: 150px;
+
+    width: 700px;
+    height: 54px;
+    color: #FFF;
+    font-family: Montagu Slab;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.text1{
+    position: relative;
+    left: 690px;
+    top: 300px;
+
+    width: 160px;
+    height: 30px;
+    color: #FFF;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-style: normal ;
+    font-weight: 800;
+    line-height: normal;
 }
