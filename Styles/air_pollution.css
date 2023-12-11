@@ -3,35 +3,54 @@ body {
     background-image: url(../images/Air_Pollution_Background.webp);
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0; /* Remove default margin to ensure full-width layout */
+    margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+    min-height: 100vh;
+}
+
+.first_text{
+    position: relative;
+    top: 50px;
+    width: 1000px;
+    height: 400px;
+    left: 50px;
 }
 
 .first-photo {
-    width: 10%; /* Make the photo take the full width of its container */
-    margin-bottom: 10px; /* Add margin for spacing between photo and text */
+    width: 38%;
+    border-radius: 56px;
+    position:relative;
+    border-left:70%;
+    left: 60%;
+    top: -330px;
 }
 
-/* Style for the second text and photo container */
+
 .second_text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 20px; /* Add margin for spacing */
+    position: relative;
+    
+    width: 1000px;
+    height: 400px;
+    left: 45%;
 }
 
-/* Style for the second photo */
 .second-photo {
-    width: 10%; /* Make the photo take the full width of its container */
-    margin-bottom: 10px; /* Add margin for spacing between photo and text */
+    width: 10%; 
+    position: relative;
+    border-radius: 56px;
 }
 
-.first_text p, .second_text p {
-    margin-bottom: 10px; /* Add margin between paragraphs for better readability */
+.first_text ,.second_text {
+    color: #FFF;
+    text-align: justify;
+    font-family: Mplus 1p Bold;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .footer {
-    margin-top: 20px; /* Add margin to separate the footer from the content */
+    margin-top: 20px;
 }

@@ -8,9 +8,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 1688px;
-        height: 115px;
-        flex-shrink: 0;
         background-color: green;
         padding: 10px;
         color: white;
