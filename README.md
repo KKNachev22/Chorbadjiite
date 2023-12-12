@@ -25,6 +25,7 @@
         <img src="./images/Tools_and_Languages/teams.png" width="50px" height="50px"> 
         <img src="./images/Tools_and_Languages/figma.png" width="50px" height="40px">
         <img src="./images/Tools_and_Languages/Discord_Icon.png" width="50px" height="50px"> 
+        <img src="./images/Tools_and_Languages/JavaScript-Logo.png" width="50px" height="50px"> 
 </p>
 
 ## 📋 About the project:
