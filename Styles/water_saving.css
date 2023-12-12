@@ -1,45 +1,48 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url(../images/Water_Saving_Background.png );
+    background-image: url(../images/Water_Saving_Background.png);
     background-size: cover;
-    
+    overflow-x: hidden;
+    max-height: 200vh;
+     
 }
-
 .first_text {
     position: relative;
-    top: 70px;
-    width: 300px;
-    height: 500px;
-    left: 160px;
-    
+    width: 500px; /* Adjusted to be responsive */
+    height: 700px;
+
+    top: 50px;
+    left: 50px;
 }
 
 .first-photo {
     position: relative;
-    width: 900px;
-    height: 400px;
+    width: 600px; /* Adjusted to be responsive */
+    height: 300px; /* Allow the height to adjust based on the aspect ratio */
     border-radius: 120px;
-    left: 900px;
-    top: -330px;
+    margin-left: auto;
+    margin-right: 0; /* Adjusted to align with the left edge */
+    top: -600px;
+    left: 700px;
 }
 
 .second_text {
     position: relative;
-    top: -270px; 
-    width: 700px;
-    height: 400px;
-    left: 950px; 
+    top: -400px;
+    width: 600px; /* Adjusted to be responsive */
+    height: 300px;
+    left: 700px;
 }
 
 .first_text, .second_text {
     color: #FFF;
     text-align: justify;
-    font-family: Mplus 1p Bold;
+    font-family: 'Mplus 1p Bold', sans-serif; /* Added quotes */
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
-.footer {
-    margin-top: -350px;
+.footer{
+    margin-top: -390px;
 }
