@@ -29,6 +29,20 @@ body {
     top: -180px;
     margin-left: auto;
     margin-right: auto; /* Center the element */
+    top: 100px;
+    width: 600px;
+    height: 400px;
+    left: 160px;
+    
+}
+
+.first-photo {
+    position:relative;
+    width: 40%;
+    border-radius: 56px;
+    border-left:70%;
+    left: 53%;
+    top: -330px;
 }
 
 .second_text {
@@ -52,6 +66,18 @@ body {
     left: 40px; /* Adjusted the left value */
     margin-left: auto;
     margin-right: auto; /* Center the element */
+    top: -260px;
+    width: 600px;
+    height: 400px;
+    right: -1000px;
+}
+
+.second-photo {
+    position:relative; 
+    width: 40%;
+    border-radius: 56px;
+    left:3%;
+    margin-top: -700px;
 }
 
 .first_text, .second_text {
