@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300&family=Montserrat+Subrayada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap');
+
 body{
     background-image: url(../images/Home_Background.png);
 
@@ -9,7 +11,6 @@ body{
 .heading {
     font-family: 'Montserrat Subrayada', sans-serif;
     text-align: center;
-    font-weight: 500;
     color: white;
     font-size: 66px; 
     margin-top: 5%;
@@ -29,7 +30,6 @@ body{
     font-family: 'Montagu Slab', sans-serif;
     font-size: 96px;
     font-style: normal;
-    font-weight: 200;
     line-height: normal;
     margin-left: 50px;
     margin-top: 10px;
@@ -44,7 +44,6 @@ body{
     font-family: 'Montagu Slab', sans-serif;
     font-size: 96px;
     font-style: normal;
-    font-weight: 200;
     line-height: normal;
     margin-right: 50px;
     margin-top: 5px;
@@ -70,7 +69,7 @@ body{
             
     position: relative;         /*Positioning*/
     top: -70px;
-    left: 350px;
+    left: 300px;
     
 
 
@@ -79,7 +78,6 @@ body{
     font-family: 'Montagu Slab', sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
     
 }
@@ -101,14 +99,13 @@ body{
 
     position: relative;
     top: -150px;
-    left: 700px;
+    left: 710px;
 
     cursor: pointer;
     color: #FFF;        /*Typography design*/
     font-family: 'Montagu Slab', sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
 }
 .box2{
@@ -131,12 +128,11 @@ body{
     font-family: 'Montagu Slab', sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
 
     position: relative;
     top: -230px;
-    left: 1050px;
+    left: 1060px;
 }
 .text{
     position: relative;
@@ -149,20 +145,18 @@ body{
     font-family: 'Montagu Slab', sans-serif;
     font-size: 25px;
     font-style: normal;
-    font-weight: 600;
     line-height: normal;
 }
 .text1{
     position: relative;
-    left: 740px;
+    left: 710px;
     top: 280px;
 
-    width: 200px;
+    width: 250px;
     height: 30px;
     color: #FFF;
-    font-family: Montserrat Alternates;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 30px;
-    font-style: normal ;
-    font-weight: 800;
+    font-style: normal;
     line-height: normal;
 }
