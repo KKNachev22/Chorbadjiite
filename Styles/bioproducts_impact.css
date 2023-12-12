@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../images/Bioproducts_Background.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.first_text {
+    position: relative;
+    top: 70px;
+    width: 1000px;
+    height: 400px;
+    left: 35%;
+    
+}
+
+.first-photo {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border-radius: 56px;
+    left: 100px;
+    top: -330px;
+}
+
+.second_text {
+    position: relative;
+    top: -280px; /* Adjusted to match the top position of the second photo */
+    width: 1000px;
+    height: 400px;
+    left: 40px; 
+}
+
+.second-photo {
+    position: relative;
+    width: 30%;
+    border-radius: 56px;
+    left: 1200px;
+    margin-top: -690px;
+}
+
+.first_text, .second_text {
+    color: #FFF;
+    text-align: justify;
+    font-family: Mplus 1p Bold;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.footer {
+    margin-top: 33px;
+}
