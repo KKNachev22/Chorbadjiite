@@ -13,12 +13,13 @@ body {
     width: 1000px;
     height: 400px;
     left: 50px;
+    
 }
 
 .first-photo {
+    position:relative;
     width: 38%;
     border-radius: 56px;
-    position:relative;
     border-left:70%;
     left: 60%;
     top: -330px;
@@ -27,16 +28,19 @@ body {
 
 .second_text {
     position: relative;
-    
+    top: -160px;
     width: 1000px;
     height: 400px;
-    left: 45%;
+    right: -850px;
 }
 
 .second-photo {
-    width: 10%; 
-    position: relative;
+    position:relative; 
+    width: 38%;
     border-radius: 56px;
+    left:3%;
+    margin-top: -600px;
+
 }
 
 .first_text ,.second_text {
