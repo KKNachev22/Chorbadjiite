@@ -10,7 +10,7 @@ body {
 .first_text {
     position: relative;
     top: 70px;
-    width: 1000px;
+    width: 800px;
     height: 400px;
     left: 35%;
     
@@ -28,7 +28,7 @@ body {
 .second_text {
     position: relative;
     top: -280px; /* Adjusted to match the top position of the second photo */
-    width: 1000px;
+    width: 800px;
     height: 400px;
     left: 40px; 
 }
@@ -37,7 +37,7 @@ body {
     position: relative;
     width: 30%;
     border-radius: 56px;
-    left: 1200px;
+    left: 1000px;
     margin-top: -690px;
 }
 
@@ -50,6 +50,7 @@ body {
     font-weight: 700;
     line-height: normal;
 }
-.footer {
-    margin-top: 33px;
+.footer{
+    position: relative;
+    top: 90px;
 }
