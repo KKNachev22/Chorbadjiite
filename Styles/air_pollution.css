@@ -1,58 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mplus+1p:wght@700&display=swap');
+
 body {
     font-family: Arial, sans-serif;
     background-image: url(../images/Air_Pollution_Background.webp);
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    overflow-x: hidden;
 }
 
-.first_text{
+.first_text {
+    width: 100%; /* Adjusted to be responsive */
+    max-width: 830px;
+    height: 222px;
+    font-size: 15px;
     position: relative;
     top: 50px;
-    width: 1000px;
-    height: 400px;
-    left: 50px;
-    
+    left: -300px;
+    margin-left: auto;
+    margin-right: auto; /* Center the element */
 }
 
 .first-photo {
-    position:relative;
-    width: 38%;
+    width: 100%; /* Adjusted to be responsive */
+    max-width: 464px;
+    height: 222px;
     border-radius: 56px;
-    border-left:70%;
-    left: 60%;
-    top: -330px;
+    position: relative;
+    left:  1000px; /* Adjusted the left value */
+    top: -180px;
+    margin-left: auto;
+    margin-right: auto; /* Center the element */
 }
 
-
 .second_text {
+    width: 100%; /* Adjusted to be responsive */
+    max-width: 700px;
+    height: 130px;
     position: relative;
-    top: -160px;
-    width: 1000px;
-    height: 400px;
-    right: -850px;
+    top: 10px;
+    left: 300px; /* Adjusted the left value */
+    margin-left: auto;
+    margin-right: auto; /* Center the element */
 }
 
 .second-photo {
-    position:relative; 
-    width: 38%;
-    border-radius: 56px;
-    left:3%;
-    margin-top: -600px;
-
+    width: 100%; /* Adjusted to be responsive */
+    max-width: 500px;
+    height: 250px;
+    border-radius: 50px;
+    position: relative;
+    top: -150px;
+    left: 40px; /* Adjusted the left value */
+    margin-left: auto;
+    margin-right: auto; /* Center the element */
 }
 
-.first_text ,.second_text {
+.first_text, .second_text {
     color: #FFF;
     text-align: justify;
-    font-family: Mplus 1p Bold;
+    font-family: 'Mplus 1p Bold', sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
-.footer {
-    margin-top: 20px;
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+    .first_text, .second_text, .first-photo, .second-photo {
+        max-width: none; /* Remove max-width for smaller screens */
+        width: 90%; /* Adjust width for smaller screens */
+    }
 }
