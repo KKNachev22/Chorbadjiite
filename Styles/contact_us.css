@@ -1,20 +1,21 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(76deg, #70FFA1 1.76%, rgba(0, 209, 255, 0.56) 96.2%);
+    background-image: url(../images/Contact_Background.png);
     background-size: cover;
     background-repeat: no-repeat;
+    overflow-x: hidden ;
 }
 form
 {
     flex-direction: column;
-
     padding: 2vw 4vw;
-    width: 1000px;
-    height: 550px;
+    width: 900px;
+    height: 600px;
     border: 1px solid #000;
     background: #FFF;
-    margin-left: 500px;
-    margin-top: 100px;
+    position: relative;
+    left: 290px;
+    top: 80px;
 }
 form h3
 {
@@ -33,50 +34,127 @@ form input, form textarea
     font-size: 16px;
 
 }
-form button
+form .btn
 {
     padding: 15px;
     border-radius: 50px;
-    background: #000;
+    background-color: black;
     color: #fff;
     font-size: 18px;
     border: 0;
     outline: none;
     cursor: pointer;
     position: relative;
-    top: 80px;
+    top: 40px;
     right: 200px;
-}
-.btn
-{
-    padding: 15px;
-    background: #ff5361;
-    color: #fff;
-    font-size: 18px;
-    border: 0;
-    border-radius: 10px;
-    outline: none;
-    cursor: pointer;
-    margin-left: 800px;
-    margin-top: 150px;
-    transition: 0.5s;
-}
-h1
-{
-    color: white;
-    font-weight: 1000;
-    margin-left: 500px;
-    margin-top: 100px;
-}
-.box
-{   
-    color: white;
-    font-weight: 1000;
-    font-size: large;
-    position: relative;
-    left: 00px;
-    top: 80px;
+    left: -300px;
 }
 .footer{
     margin-top: 400px;
+}
+.input1{
+    width: 400px;
+    height: 60px;
+}
+.input2{
+    width: 400px;
+    height: 60px;
+}
+.textarea{
+    width: 400px;
+    height: 170px;
+    resize: none;
+}
+.text{
+    width: 130px;
+    height: 35px;   
+    font-family: Kulim Park;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    position: relative;
+    left: 550px;
+    top: -500px;
+}
+.text1{
+    width: 229px;
+    height: 54px;
+    font-family: Kulim Park;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+
+    position: relative;
+    left: 490px;
+    top: -450px;
+}
+.text2{
+    width: 150px;
+    height: 22px;
+    font-family: Kulim Park;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+
+    position: relative;
+    left: 490px;
+    top: -450px;
+}
+.text3{
+    width: 130px;
+    height: 35px;
+    font-family: Kulim Park;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    position: relative;
+    top: -330px;
+    left: 555px;
+}
+.text4{
+    width: 229px;
+    height: 54px;
+    font-family: Kulim Park;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+
+    position: relative;
+    left: 490px;
+    top: -290px;
+}
+.schoollogo{
+    background-image: url(../images/school_logo.png);
+    width: 90px;
+    height: 90px;
+
+    position: relative;
+    top: -240px;
+    left: 500px;
+}
+.line{
+    width: 100px;
+    height: 1px;
+    transform: rotate(-60deg);
+    background: #000;
+
+    position: relative;
+    top: -280px;
+    left: 570px;
+}
+.teamlogo{
+    background-image: url(../images/logo.png);
+    width: 100px;
+    height: 100px;
+
+    position: relative;
+    top: -330px;
+    left: 650px;
 }
