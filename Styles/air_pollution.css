@@ -9,37 +9,37 @@ body {
 
 .first_text{
     position: relative;
-    top: 50px;
-    width: 1000px;
+    top: 100px;
+    width: 600px;
     height: 400px;
-    left: 50px;
+    left: 160px;
     
 }
 
 .first-photo {
     position:relative;
-    width: 38%;
+    width: 40%;
     border-radius: 56px;
     border-left:70%;
-    left: 60%;
+    left: 53%;
     top: -330px;
 }
 
 
 .second_text {
     position: relative;
-    top: -160px;
-    width: 1000px;
+    top: -260px;
+    width: 600px;
     height: 400px;
-    right: -850px;
+    right: -1000px;
 }
 
 .second-photo {
     position:relative; 
-    width: 38%;
+    width: 40%;
     border-radius: 56px;
     left:3%;
-    margin-top: -600px;
+    margin-top: -700px;
 
 }
 
